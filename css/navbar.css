@@ -123,25 +123,10 @@ html {
     position: relative;
 }
 
-.navbar .navbar-menu .nav-link:hover {
+.navbar .navbar-menu .nav-link:hover,
+.navbar .navbar-menu .nav-link.active {
     color: var(--primary);
 }
-
-.navbar .navbar-menu .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary);
-    transition: width 0.3s ease;
-}
-
-.navbar .navbar-menu .nav-link:hover::after {
-    width: 100%;
-}
-
 
 /* Mobile Menu Toggle */
 .navbar .mobile-toggle {
@@ -157,10 +142,6 @@ html {
     align-items: center;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-}
-
-.navbar .mobile-toggle:hover {
-    background-color: rgba(238, 182, 68, 0.1);
 }
 
 .navbar .mobile-toggle i {

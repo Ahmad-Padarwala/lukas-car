@@ -168,7 +168,7 @@
 
 .card-section .content-grid .service-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     text-align: left;
 }
