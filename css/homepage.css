@@ -2,7 +2,7 @@
 .video-section {
   position: relative;
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 40px);
   /* 100vh minus navbar height */
   overflow: hidden;
 }
@@ -126,6 +126,8 @@
 /* card section */
 .card-section {
   position: relative;
+  /* border: 2px solid red; */
+  margin-top: 160px;
 }
 
 .card-section .wrapper {
@@ -453,7 +455,6 @@
   margin-bottom: 20px;
 }
 
-
-.product-description-p{
-    font-size: 14px;
+.product-description-p {
+  font-size: 14px;
 }

@@ -91,7 +91,8 @@ html {
   align-items: center;
   justify-content: center;
   padding: 1rem 0;
-  min-height: 70px;
+  min-height: 40px;
+  max-height: 54px;
 }
 
 /* Logo Styles */
