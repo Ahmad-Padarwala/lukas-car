@@ -2,7 +2,8 @@
 .video-section {
   position: relative;
   width: 100%;
-  height: calc(100vh - 40px);
+  height: calc(92vh + 2px);
+  /* height: 92vh; */
   /* 100vh minus navbar height */
   overflow: hidden;
 }
